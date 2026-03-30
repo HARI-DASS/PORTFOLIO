@@ -262,19 +262,31 @@
             <p class="contact-heading contact-heading--mobile">Let's discuss your Project</p>
             <p class="contact-form-sub">I'm always open to discussing product design work or partnership opportunities.
             </p>
-            <form class="contact-form" id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeGig5C4nFFcZcH8BB9/formResponse" method="POST" target="hidden_iframe" novalidate>
-              <input type="text" name="entry.1687986434" id="formName" placeholder="Name*" class="form-input" required />
+            <form class="contact-form" id="contactForm"
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfeL0tGaKZLvUTejVhi21GfkNafgAyWVF2_7rTgqZLAl7safA/formResponse"
+              method="POST" target="hidden_iframe" onsubmit="submitted=true;" novalidate>
+              <input type="text" name="entry.1687986434" id="formName" placeholder="Name*" class="form-input"
+                required />
               <span class="form-error" id="nameError"></span>
-              
-              <input type="email" name="entry.483001839" id="formEmail" placeholder="Email*" class="form-input" required />
+
+              <input type="email" name="entry.483001839" id="formEmail" placeholder="Email*" class="form-input"
+                required />
               <span class="form-error" id="emailError"></span>
-              
-              <input type="text" name="entry.86634074" id="formSubject" placeholder="Subject*" class="form-input" required />
-              <span class="form-error" id="subjectError"></span>
-              
-              <input type="text" name="entry.1005945002" id="formMessage" placeholder="Message*" class="form-input" required />
+
+              <input type="tel" name="entry.341780541" id="formPhone" placeholder="Phone Number*" class="form-input"
+                required />
+              <span class="form-error" id="phoneError"></span>
+
+              <input type="text" name="entry.1005945002" id="formMessage" placeholder="Message*" class="form-input"
+                required />
               <span class="form-error" id="messageError"></span>
-              
+
+              <input type="text" name="entry.86634074" id="formSubject" placeholder="Subject*" class="form-input"
+                required />
+              <span class="form-error" id="subjectError"></span>
+
+
+
               <button type="submit" class="btn btn-primary btn-submit">
                 <span id="submitBtnText">Submit</span>
                 <svg class="telegram-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
